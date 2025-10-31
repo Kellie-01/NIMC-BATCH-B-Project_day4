@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: successtech/nimc-frontend:latest
+        image: kellie01/frontend:day4
         ports:
         - containerPort: 80
         readinessProbe:
